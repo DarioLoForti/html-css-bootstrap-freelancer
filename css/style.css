@@ -68,8 +68,6 @@ h2{
 /* second section */
 
 .content-m-t{
-    height: 300px;
-    border: 1px solid black;
     border-radius: 30px;
 }
 .bg-p{
@@ -90,7 +88,41 @@ h2{
 .bg-c{
     background-color: #CCB2A3;
 }
-
+.content-m-t>h2{
+    font-weight: bold;
+}
+.content-m-t>img{
+    width: 100%;
+    border-radius: 30px;
+}
+.content-m-t>p{
+    font-family: sans-serif;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+    max-width: 400px;
+    position: relative;
+}
+.content-m-t>p:before{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: black;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+.content-m-t>p:after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background:black;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
 /* third section*/
 
 .content-m{
