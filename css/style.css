@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 /* header */
@@ -18,9 +17,11 @@ header{
     font-size: 15px;
     margin-left: 10px;
 }
+
 h2{
     font-weight: bold;
 }
+
 /* main */
 
 /* first section */
@@ -28,10 +29,12 @@ h2{
 .bg{
     background-color: #1ABC9C;
 }
+
 .content-m-bg>img{
     width: 25%;
     padding-bottom: 10px;
 }
+
 .content-m-bg>h2{
     font-weight: bold;
 }
@@ -44,6 +47,7 @@ h2{
     max-width: 400px;
     position: relative;
 }
+
 .content-m-bg>p:before{
     content: "";
     display: block;
@@ -54,6 +58,7 @@ h2{
     top: 50%;
     position: absolute;
 }
+
 .content-m-bg>p:after{
     content: "";
     display: block;
@@ -70,31 +75,40 @@ h2{
 .content-m-t{
     border-radius: 30px;
 }
+
 .bg-p{
     background-color:#BA4B63 ;
 }
+
 .bg-a{
     background-color:#1EA4B6 ;
 }
+
 .bg-bl{
     background-color:#140F0F ;
 }
+
 .bg-lb{
     background-color:#1C83C1 ;
 }
+
 .bg-b{
     background-color: #0E38B5;
 }
+
 .bg-c{
     background-color: #CCB2A3;
 }
+
 .content-m-t>h2{
     font-weight: bold;
 }
+
 .content-m-t>img{
     width: 100%;
     border-radius: 30px;
 }
+
 .content-m-t>p{
     font-family: sans-serif;
     margin: 20px auto;
@@ -103,6 +117,7 @@ h2{
     max-width: 400px;
     position: relative;
 }
+
 .content-m-t>p:before{
     content: "";
     display: block;
@@ -113,6 +128,7 @@ h2{
     top: 50%;
     position: absolute;
 }
+
 .content-m-t>p:after{
     content: "";
     display: block;
@@ -123,6 +139,7 @@ h2{
     top: 50%;
     position: absolute;
 }
+
 /* third section*/
 
 .content-m>button{
@@ -135,9 +152,47 @@ h2{
 
 /* fourt section */
 
-.content-m-b{
-    height: 200px;
-    border: 1px solid black;
+.content-m-b>button{
+    padding: 5px 10px;
+    color: white;
+    background-color: #1ABC9C;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.content-m-b>p{
+    font-family: sans-serif;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+    max-width: 400px;
+    position: relative;
+}
+
+.content-m-b>p:before{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: black;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.content-m-b>p:after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background:black;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.form-control{
+    border-style: none;    
 }
 
 /* footer*/
